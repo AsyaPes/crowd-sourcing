@@ -1,0 +1,26 @@
+[
+{
+    "name":"A",
+    "edge":[
+    {
+    "target":{
+    "name":"B",
+    "edge":[
+    {
+    "target":{
+    "name":"D",
+    "edge":""
+    },
+    "weight":3
+    }
+    ],
+    "weight":1
+    },
+    "target":{
+    "name":"C",
+    "edge":""
+    },
+    "weight":2
+    }
+    ]
+}]
