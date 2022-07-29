@@ -1,7 +1,7 @@
 services:
   mongo:
     image: mongo
-    container_name: pa-mongo
+    container_name: pa-mongo1
     ports:
       - 27017:27017
     environment:
@@ -17,7 +17,7 @@ services:
 
   mongo-express:
     image: mongo-express
-    container_name: pa-mongo-express
+    container_name: pa-mongo-express1
     ports:
       - 8082:8081
     environment:
